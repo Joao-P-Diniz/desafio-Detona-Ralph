@@ -1,0 +1,62 @@
+body{
+    font-family: "Press Start 2P", system-ui;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+
+    height: 100vh;
+
+    background-image: url('../imgs/wall.png');
+}
+
+.menu{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+    height: 90px;
+    width: 100%;
+
+    background-color: #111111;
+    color: #ffffff;
+    border-bottom: 5px solid #e9e2e2;
+}
+
+.menu-lives{
+    display: flex;
+    align-items: center;
+}
+
+.menu-time h2:nth-child(1),.menu-score h2:nth-child(1){
+    margin-bottom: 10px;
+}
+
+.painel{
+    margin-top:1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+
+    border: 2px solid #000000;
+    background-color:  #4682b4;
+}
+
+.square:hover{
+    background-color: #14456d;
+
+    transition: 0.3s;
+}
+.enemy{
+    background-image: url('../imgs/ralph.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
